@@ -1,30 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+     Copyright 2022 Afig Aliyev
+
+     Licensed under the Apache License, Version 2.0 (the "License");
+     you may not use this file except in compliance with the License.
+     You may obtain a copy of the License at
+
+         http://www.apache.org/licenses/LICENSE-2.0
+
+     Unless required by applicable law or agreed to in writing, software
+     distributed under the License is distributed on an "AS IS" BASIS,
+     WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+     See the License for the specific language governing permissions and
+     limitations under the License.
+-->
 <vector xmlns:android="http://schemas.android.com/apk/res/android"
-    xmlns:aapt="http://schemas.android.com/aapt"
+    xmlns:tools="http://schemas.android.com/tools"
     android:width="108dp"
     android:height="108dp"
     android:viewportWidth="108"
     android:viewportHeight="108">
-    <path android:pathData="M31,63.928c0,0 6.4,-11 12.1,-13.1c7.2,-2.6 26,-1.4 26,-1.4l38.1,38.1L107,108.928l-32,-1L31,63.928z">
-        <aapt:attr name="android:fillColor">
-            <gradient
-                android:endX="85.84757"
-                android:endY="92.4963"
-                android:startX="42.9492"
-                android:startY="49.59793"
-                android:type="linear">
-                <item
-                    android:color="#44000000"
-                    android:offset="0.0" />
-                <item
-                    android:color="#00000000"
-                    android:offset="1.0" />
-            </gradient>
-        </aapt:attr>
-    </path>
-    <path
-        android:fillColor="#FFFFFF"
-        android:fillType="nonZero"
-        android:pathData="M65.3,45.828l3.8,-6.6c0.2,-0.4 0.1,-0.9 -0.3,-1.1c-0.4,-0.2 -0.9,-0.1 -1.1,0.3l-3.9,6.7c-6.3,-2.8 -13.4,-2.8 -19.7,0l-3.9,-6.7c-0.2,-0.4 -0.7,-0.5 -1.1,-0.3C38.8,38.328 38.7,38.828 38.9,39.228l3.8,6.6C36.2,49.428 31.7,56.028 31,63.928h46C76.3,56.028 71.8,49.428 65.3,45.828zM43.4,57.328c-0.8,0 -1.5,-0.5 -1.8,-1.2c-0.3,-0.7 -0.1,-1.5 0.4,-2.1c0.5,-0.5 1.4,-0.7 2.1,-0.4c0.7,0.3 1.2,1 1.2,1.8C45.3,56.528 44.5,57.328 43.4,57.328L43.4,57.328zM64.6,57.328c-0.8,0 -1.5,-0.5 -1.8,-1.2s-0.1,-1.5 0.4,-2.1c0.5,-0.5 1.4,-0.7 2.1,-0.4c0.7,0.3 1.2,1 1.2,1.8C66.5,56.528 65.6,57.328 64.6,57.328L64.6,57.328z"
-        android:strokeWidth="1"
-        android:strokeColor="#00000000" />
+    <group
+        android:scaleX="0.6075"
+        android:scaleY="0.6075"
+        android:translateX="27.27"
+        android:translateY="27.27">
+        <path
+            android:fillColor="#12CDD9"
+            android:pathData="M77,22H49.17L61.234,9.937L58.667,7.333L44,22L29.334,7.333L26.73,9.937L38.83,22H11C6.967,22 3.667,25.263 3.667,29.333V73.333C3.667,77.367 6.967,80.667 11,80.667H77C81.034,80.667 84.334,77.367 84.334,73.333V29.333C84.334,25.263 81.034,22 77,22ZM77,73.333H11V29.333H77V73.333Z" />
+        <path
+            android:fillColor="#12CDD9"
+            android:fillType="evenOdd"
+            android:pathData="M34,37C31.791,37 30,38.791 30,41V61C30,63.209 31.791,65 34,65H54C56.209,65 58,63.209 58,61V41C58,38.791 56.209,37 54,37H34ZM37.144,54.934C37.846,55.31 38.63,55.498 39.496,55.498C40.198,55.498 40.839,55.375 41.419,55.13C42.007,54.885 42.501,54.53 42.901,54.064L41.872,53.084C41.251,53.762 40.488,54.101 39.581,54.101C38.993,54.101 38.467,53.974 38.001,53.721C37.536,53.46 37.172,53.101 36.911,52.643C36.65,52.186 36.519,51.667 36.519,51.088C36.519,50.508 36.65,49.989 36.911,49.532C37.172,49.075 37.536,48.719 38.001,48.466C38.467,48.205 38.993,48.074 39.581,48.074C40.488,48.074 41.251,48.409 41.872,49.079L42.901,48.111C42.501,47.645 42.011,47.29 41.431,47.045C40.851,46.8 40.21,46.678 39.508,46.678C38.642,46.678 37.858,46.869 37.156,47.253C36.462,47.629 35.915,48.152 35.514,48.821C35.114,49.491 34.914,50.246 34.914,51.088C34.914,51.929 35.11,52.684 35.502,53.354C35.902,54.023 36.45,54.55 37.144,54.934ZM50.841,55.375H52.152V46.8H50.571V52.607L45.843,46.8H44.532V55.375H46.112V49.569L50.841,55.375Z"
+            tools:ignore="VectorPath"
+            tools:targetApi="24" />
+    </group>
 </vector>
