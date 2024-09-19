@@ -73,12 +73,9 @@ dependencies {
     implementation(libs.androidx.paging.common)
 
     implementation(libs.kotlinx.serialization.json)
-//    implementation(libs.bundles.androidx.room)
-    ksp(libs.androidx.room.compiler)
 
     implementation(libs.androidx.datastore.preferences)
     implementation(platform(libs.androidx.compose.bom))
-//    api(libs.bundles.androidx.compose)
     api(libs.accompanist.placeholder.material)
     api(libs.coil.compose)
 
@@ -92,27 +89,22 @@ dependencies {
     androidTestImplementation(libs.androidx.espresso.core)
     androidTestImplementation(platform(libs.androidx.compose.bom))
     androidTestImplementation(libs.androidx.ui.test.junit4)
-    debugImplementation(libs.androidx.ui.tooling)
-    debugImplementation(libs.androidx.ui.test.manifest)
+    debugImplementation(libs.androidx.compose.ui.tooling)
+    debugImplementation(libs.androidx.compose.ui.test.manifest)
 
-//    implementation(platform(libs.okhttpBom))
     implementation(libs.okhttp)
     implementation(libs.retrofit)
+    implementation(libs.retrofit2ConverterGson)
     implementation(libs.retrofit.kotlinx.serialization.converter)
-
 
     implementation(libs.androidx.annotation)
 
-//    implementation(libs.bundles.retrofit)
 
     implementation(libs.roomRuntime)
     ksp(libs.roomCompiler)
     implementation(libs.roomKtx)
     implementation(libs.roomPagingKtx)
 
-
-    implementation(libs.retrofit2)
-    implementation(libs.retrofit2ConverterGson)
 
     implementation(libs.accompanist.pager.indicators)
     implementation(libs.androidx.paging.compose)
@@ -126,7 +118,6 @@ dependencies {
     implementation(libs.dagger.hilt.android)
     implementation(libs.androidx.hilt.navigation.compose)
     kapt(libs.dagger.hilt.compiler)
-    implementation(libs.androidx.room.runtime)
 
     implementation(libs.androidx.lifecycle.runtime.compose)
     implementation(libs.androidx.lifecycle.viewmodel.compose)
